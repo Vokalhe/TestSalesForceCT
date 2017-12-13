@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="16G29" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Account" representedClassName="Account" syncable="YES" codeGenerationType="class">
+        <attribute name="accountId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="website" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="ChangeAccount" representedClassName="ChangeAccount" syncable="YES" codeGenerationType="class">
+        <attribute name="changeAccountById" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="changedValuesByKey" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="changesValuesSet" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="isChange" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDelete" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="-45" positionY="0" width="128" height="103"/>
+        <element name="ChangeAccount" positionX="-270" positionY="9" width="128" height="30"/>
+    </elements>
+</model>

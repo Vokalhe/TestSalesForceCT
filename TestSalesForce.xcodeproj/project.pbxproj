@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0AF9B47AD6A53E165F5A29 /* libPods-TestSalesForce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B185AC8A8A7AA7C7025470 /* libPods-TestSalesForce.a */; };
+		5B4D351F1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D351E1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.m */; };
+		5B546FC21FC440EA00569B29 /* EVAAccountsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B546FC11FC440EA00569B29 /* EVAAccountsTableViewController.m */; };
+		5B546FC61FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B546FC51FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.m */; };
+		5B546FC91FC44F1900569B29 /* EVAPropertyAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B546FC81FC44F1900569B29 /* EVAPropertyAccountTableViewController.m */; };
+		5B55107F1FC576CA0029396E /* EVACoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B55107E1FC576CA0029396E /* EVACoreDataTableViewController.m */; };
+		5B5510821FC5792A0029396E /* EVADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5510811FC5792A0029396E /* EVADataManager.m */; };
+		5B5510931FC587A50029396E /* EVAAccountFromServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5510921FC587A50029396E /* EVAAccountFromServer.m */; };
+		5BE31DEE1FC3180A00943B69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31DED1FC3180A00943B69 /* AppDelegate.m */; };
+		5BE31DF41FC3180A00943B69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE31DF21FC3180A00943B69 /* Main.storyboard */; };
+		5BE31DF71FC3180A00943B69 /* TestSalesForce.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31DF51FC3180A00943B69 /* TestSalesForce.xcdatamodeld */; };
+		5BE31DF91FC3180A00943B69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE31DF81FC3180A00943B69 /* Assets.xcassets */; };
+		5BE31DFC1FC3180A00943B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE31DFA1FC3180A00943B69 /* LaunchScreen.storyboard */; };
+		5BE31DFF1FC3180A00943B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31DFE1FC3180A00943B69 /* main.m */; };
+		5BE31E081FC339AE00943B69 /* EVAServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE31E071FC339AE00943B69 /* EVAServerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29B185AC8A8A7AA7C7025470 /* libPods-TestSalesForce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestSalesForce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B172A2E182F7B066219275 /* Pods-TestSalesForce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSalesForce.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestSalesForce/Pods-TestSalesForce.release.xcconfig"; sourceTree = "<group>"; };
+		5B4D351D1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAPopoverCreateFormController.h; sourceTree = "<group>"; };
+		5B4D351E1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAPopoverCreateFormController.m; sourceTree = "<group>"; };
+		5B546FC01FC440EA00569B29 /* EVAAccountsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAAccountsTableViewController.h; sourceTree = "<group>"; };
+		5B546FC11FC440EA00569B29 /* EVAAccountsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAAccountsTableViewController.m; sourceTree = "<group>"; };
+		5B546FC41FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAAccountPropertyTableViewCell.h; sourceTree = "<group>"; };
+		5B546FC51FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAAccountPropertyTableViewCell.m; sourceTree = "<group>"; };
+		5B546FC71FC44F1900569B29 /* EVAPropertyAccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAPropertyAccountTableViewController.h; sourceTree = "<group>"; };
+		5B546FC81FC44F1900569B29 /* EVAPropertyAccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAPropertyAccountTableViewController.m; sourceTree = "<group>"; };
+		5B55107D1FC576CA0029396E /* EVACoreDataTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVACoreDataTableViewController.h; sourceTree = "<group>"; };
+		5B55107E1FC576CA0029396E /* EVACoreDataTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVACoreDataTableViewController.m; sourceTree = "<group>"; };
+		5B5510801FC5792A0029396E /* EVADataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVADataManager.h; sourceTree = "<group>"; };
+		5B5510811FC5792A0029396E /* EVADataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVADataManager.m; sourceTree = "<group>"; };
+		5B5510911FC587A50029396E /* EVAAccountFromServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAAccountFromServer.h; sourceTree = "<group>"; };
+		5B5510921FC587A50029396E /* EVAAccountFromServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAAccountFromServer.m; sourceTree = "<group>"; };
+		5BE31DE91FC3180A00943B69 /* TestSalesForce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSalesForce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE31DEC1FC3180A00943B69 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5BE31DED1FC3180A00943B69 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5BE31DF31FC3180A00943B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE31DF61FC3180A00943B69 /* TestSalesForce.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestSalesForce.xcdatamodel; sourceTree = "<group>"; };
+		5BE31DF81FC3180A00943B69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE31DFB1FC3180A00943B69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE31DFD1FC3180A00943B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE31DFE1FC3180A00943B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BE31E061FC339AE00943B69 /* EVAServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAServerManager.h; sourceTree = "<group>"; };
+		5BE31E071FC339AE00943B69 /* EVAServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAServerManager.m; sourceTree = "<group>"; };
+		AC70724A26F4868DB5C62D0D /* Pods-TestSalesForce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSalesForce.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestSalesForce/Pods-TestSalesForce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE31DE61FC3180A00943B69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0AF9B47AD6A53E165F5A29 /* libPods-TestSalesForce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED8634C81CA6C3AD789023A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B185AC8A8A7AA7C7025470 /* libPods-TestSalesForce.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B546FBF1FC440B400569B29 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B546FC01FC440EA00569B29 /* EVAAccountsTableViewController.h */,
+				5B546FC11FC440EA00569B29 /* EVAAccountsTableViewController.m */,
+				5B546FC71FC44F1900569B29 /* EVAPropertyAccountTableViewController.h */,
+				5B546FC81FC44F1900569B29 /* EVAPropertyAccountTableViewController.m */,
+				5B55107D1FC576CA0029396E /* EVACoreDataTableViewController.h */,
+				5B55107E1FC576CA0029396E /* EVACoreDataTableViewController.m */,
+				5B4D351D1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.h */,
+				5B4D351E1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B546FC31FC44C9900569B29 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5B546FC41FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.h */,
+				5B546FC51FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5B55108A1FC582550029396E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5B5510911FC587A50029396E /* EVAAccountFromServer.h */,
+				5B5510921FC587A50029396E /* EVAAccountFromServer.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BE31DE01FC3180900943B69 = {
+			isa = PBXGroup;
+			children = (
+				5BE31DEB1FC3180A00943B69 /* TestSalesForce */,
+				5BE31DEA1FC3180A00943B69 /* Products */,
+				CAC10EE4FC912DD7F3507676 /* Pods */,
+				3ED8634C81CA6C3AD789023A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE31DEA1FC3180A00943B69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE31DE91FC3180A00943B69 /* TestSalesForce.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE31DEB1FC3180A00943B69 /* TestSalesForce */ = {
+			isa = PBXGroup;
+			children = (
+				5B55108A1FC582550029396E /* Models */,
+				5B546FC31FC44C9900569B29 /* Cells */,
+				5B546FBF1FC440B400569B29 /* Controllers */,
+				5BE31E051FC3399800943B69 /* Managers */,
+				5BE31DEC1FC3180A00943B69 /* AppDelegate.h */,
+				5BE31DED1FC3180A00943B69 /* AppDelegate.m */,
+				5BE31DF21FC3180A00943B69 /* Main.storyboard */,
+				5BE31DF81FC3180A00943B69 /* Assets.xcassets */,
+				5BE31DFA1FC3180A00943B69 /* LaunchScreen.storyboard */,
+				5BE31DFD1FC3180A00943B69 /* Info.plist */,
+				5BE31DFE1FC3180A00943B69 /* main.m */,
+				5BE31DF51FC3180A00943B69 /* TestSalesForce.xcdatamodeld */,
+			);
+			path = TestSalesForce;
+			sourceTree = "<group>";
+		};
+		5BE31E051FC3399800943B69 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5BE31E061FC339AE00943B69 /* EVAServerManager.h */,
+				5BE31E071FC339AE00943B69 /* EVAServerManager.m */,
+				5B5510801FC5792A0029396E /* EVADataManager.h */,
+				5B5510811FC5792A0029396E /* EVADataManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CAC10EE4FC912DD7F3507676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC70724A26F4868DB5C62D0D /* Pods-TestSalesForce.debug.xcconfig */,
+				48B172A2E182F7B066219275 /* Pods-TestSalesForce.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE31DE81FC3180A00943B69 /* TestSalesForce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE31E021FC3180A00943B69 /* Build configuration list for PBXNativeTarget "TestSalesForce" */;
+			buildPhases = (
+				EA69D4AF55CB62A4C02A0F31 /* [CP] Check Pods Manifest.lock */,
+				5BE31DE51FC3180A00943B69 /* Sources */,
+				5BE31DE61FC3180A00943B69 /* Frameworks */,
+				5BE31DE71FC3180A00943B69 /* Resources */,
+				249851526AC5B04EB85EE35E /* [CP] Embed Pods Frameworks */,
+				EAB612A6F5C6A77345A5D57C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestSalesForce;
+			productName = TestSalesForce;
+			productReference = 5BE31DE91FC3180A00943B69 /* TestSalesForce.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE31DE11FC3180A00943B69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ctuser;
+				TargetAttributes = {
+					5BE31DE81FC3180A00943B69 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5BE31DE41FC3180A00943B69 /* Build configuration list for PBXProject "TestSalesForce" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE31DE01FC3180900943B69;
+			productRefGroup = 5BE31DEA1FC3180A00943B69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE31DE81FC3180A00943B69 /* TestSalesForce */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE31DE71FC3180A00943B69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE31DFC1FC3180A00943B69 /* LaunchScreen.storyboard in Resources */,
+				5BE31DF91FC3180A00943B69 /* Assets.xcassets in Resources */,
+				5BE31DF41FC3180A00943B69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249851526AC5B04EB85EE35E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSalesForce/Pods-TestSalesForce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA69D4AF55CB62A4C02A0F31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSalesForce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAB612A6F5C6A77345A5D57C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestSalesForce/Pods-TestSalesForce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE31DE51FC3180A00943B69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE31DEE1FC3180A00943B69 /* AppDelegate.m in Sources */,
+				5B4D351F1FD56F3300BD9DF7 /* EVAPopoverCreateFormController.m in Sources */,
+				5B5510931FC587A50029396E /* EVAAccountFromServer.m in Sources */,
+				5BE31E081FC339AE00943B69 /* EVAServerManager.m in Sources */,
+				5B55107F1FC576CA0029396E /* EVACoreDataTableViewController.m in Sources */,
+				5BE31DFF1FC3180A00943B69 /* main.m in Sources */,
+				5B546FC61FC44CCF00569B29 /* EVAAccountPropertyTableViewCell.m in Sources */,
+				5B5510821FC5792A0029396E /* EVADataManager.m in Sources */,
+				5B546FC21FC440EA00569B29 /* EVAAccountsTableViewController.m in Sources */,
+				5BE31DF71FC3180A00943B69 /* TestSalesForce.xcdatamodeld in Sources */,
+				5B546FC91FC44F1900569B29 /* EVAPropertyAccountTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BE31DF21FC3180A00943B69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE31DF31FC3180A00943B69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE31DFA1FC3180A00943B69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE31DFB1FC3180A00943B69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE31E001FC3180A00943B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5BE31E011FC3180A00943B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE31E031FC3180A00943B69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC70724A26F4868DB5C62D0D /* Pods-TestSalesForce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = TestSalesForce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ct.TestSalesForce.TestSalesForce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5BE31E041FC3180A00943B69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B172A2E182F7B066219275 /* Pods-TestSalesForce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = TestSalesForce/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ct.TestSalesForce.TestSalesForce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE31DE41FC3180A00943B69 /* Build configuration list for PBXProject "TestSalesForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE31E001FC3180A00943B69 /* Debug */,
+				5BE31E011FC3180A00943B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE31E021FC3180A00943B69 /* Build configuration list for PBXNativeTarget "TestSalesForce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE31E031FC3180A00943B69 /* Debug */,
+				5BE31E041FC3180A00943B69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BE31DF51FC3180A00943B69 /* TestSalesForce.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BE31DF61FC3180A00943B69 /* TestSalesForce.xcdatamodel */,
+			);
+			currentVersion = 5BE31DF61FC3180A00943B69 /* TestSalesForce.xcdatamodel */;
+			path = TestSalesForce.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BE31DE11FC3180A00943B69 /* Project object */;
+}
