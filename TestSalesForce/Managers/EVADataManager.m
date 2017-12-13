@@ -248,18 +248,14 @@ static NSString *const kLocalIdForAccount = @"localId";
                 if (![[self allAccountsByParam:@"phone"] containsObject:accountServer.accountIdS]){
                     
                     addAccount.phone = accountServer.phoneS;
-                    //[acc setValue:accountServer.phoneS forKey:@"phone"];
-                    
                     
                 }else if (![[self allAccountsByParam:@"website"] containsObject:accountServer.accountIdS]){
                     
                     addAccount.website = accountServer.websiteS;
-                    //[acc setValue:accountServer.phoneS forKey:@"website"];
                     
                 }else if (![[self allAccountsByParam:@"name"] containsObject:accountServer.accountIdS]){
                     
                     addAccount.name = accountServer.nameS;
-                    //[acc setValue:accountServer.phoneS forKey:@"name"];
                     
                 }
                 
